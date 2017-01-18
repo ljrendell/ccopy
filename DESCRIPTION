@@ -1,11 +1,12 @@
 Package: ccopy
 Title: Copying only user commands from console text
-Version: 0.1
+Version: 0.1-1
 Authors@R: person("Lewis", "Rendell", email = "ljrendell@gmail.com", role = c("aut", "cre"))
 Description: Tools for extracting executable code from text from the console, by
-    removing output (including warning and error messages) and input line prefixes
+    removing output (including warning and error messages) and input prompts
     ("> " and "+ ").
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
+Suggests: testthat
